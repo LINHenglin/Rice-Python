@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# TensorBoard event files (large binary)
+logs/**/events.out.tfevents.*
+
+# Dataset (large files)
+data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
